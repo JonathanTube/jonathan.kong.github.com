@@ -66,8 +66,8 @@ const config = {
       navbar: {
         title: "Jonathan's blog",
         logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg"
+          alt: "Programming Monkey",
+          src: "img/logo.jpeg"
         },
         items: [
           {
