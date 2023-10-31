@@ -20,7 +20,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "JonathanTube", // Usually your GitHub org/user name.
   projectName: "jonathantube.github.com", // Usually your repo name.
-  deploymentBranch: "master",
+  deploymentBranch: "main",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
