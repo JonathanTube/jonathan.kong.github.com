@@ -1,5 +1,4 @@
 ---
-slug: how-to-use-vuex
 title: vuex简单使用
 tags: [frontend, vue, vuex]
 ---
