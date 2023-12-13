@@ -1,9 +1,9 @@
 import React from "react"
 import clsx from "clsx"
-import Link from "@docusaurus/Link"
+// import Link from "@docusaurus/Link"
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 import Layout from "@theme/Layout"
-import HomepageFeatures from "@site/src/components/HomepageFeatures"
+// import HomepageFeatures from "@site/src/components/HomepageFeatures"
 
 import styles from "./index.module.css"
 
@@ -11,7 +11,7 @@ function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext()
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
-      <div className="container">
+      <div className="container" style={{ height: "calc(100vh - 255px)" }}>
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
@@ -35,11 +35,6 @@ export default function Home(): JSX.Element {
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
-      <main>
-        <div style={{ fontSize: "20px", textAlign: "center", padding: "40px" }}>
-          I'm a java web full stack engineer.
-        </div>
-      </main>
     </Layout>
   )
 }
