@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9847],{1167:e=>{e.exports=JSON.parse('{"title":"Vue3","description":"Vue3","slug":"/category/vue3","permalink":"/docs/category/vue3","navigation":{"previous":{"title":"Plugins","permalink":"/docs/tailwindcss/Plugins"},"next":{"title":"vue","permalink":"/docs/vue3/vue"}}}')}}]);
