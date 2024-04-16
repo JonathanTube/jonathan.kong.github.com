@@ -57,7 +57,7 @@ const config = {
       })
     ]
   ],
-
+  plugins: ["./postcss-tailwind-loader"],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -77,9 +77,15 @@ const config = {
             label: "Tutorial"
           },
           { to: "/blog", label: "Blog", position: "left" },
+          { to: "/projects", label: "Projects", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/JonathanTube",
             label: "GitHub",
+            position: "right"
+          },
+          {
+            href: "https://gitee.com/kongxm/projects",
+            label: "Gitee",
             position: "right"
           }
         ]

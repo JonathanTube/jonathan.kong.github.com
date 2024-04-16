@@ -1,0 +1,8 @@
+{
+  "label": "Project List",
+  "position": 99999,
+  "link": {
+    "type": "generated-index",
+    "description": "Basic Algorithm Learning"
+  }
+}
