@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "JonathanTube", // Usually your GitHub org/user name.
-  projectName: "jonathantube.github.com", // Usually your repo name.
+  projectName: "jonathan.kong.github.com", // Usually your repo name.
   deploymentBranch: "deploy",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -42,14 +42,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/JonathanTube/jonathantube.github.com/tree/main"
+            "https://github.com/JonathanTube/Jonathan.Kong.github.com/tree/main"
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/JonathanTube/jonathantube.github.com/tree/main"
+            "https://github.com/JonathanTube/Jonathan.Kong.github.com/tree/main"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css")
