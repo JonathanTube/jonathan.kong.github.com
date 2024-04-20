@@ -29,7 +29,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"]
+    locales: ["en"],
   },
 
   presets: [
@@ -42,104 +42,104 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/JonathanTube/Jonathan.Kong.github.com/tree/main"
+            "https://github.com/JonathanTube/Jonathan.Kong.github.com/tree/main",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/JonathanTube/Jonathan.Kong.github.com/tree/main"
+            "https://github.com/JonathanTube/Jonathan.Kong.github.com/tree/main",
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css")
-        }
-      })
-    ]
+          customCss: require.resolve("./src/css/custom.css"),
+        },
+      }),
+    ],
   ],
   plugins: ["./postcss-tailwind-loader"],
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
-      navbar: {
-        title: "Jonathan's blog",
-        logo: {
-          alt: "Programming Monkey",
-          src: "img/logo.jpeg"
+  themeConfig: {
+    colorMode: {
+      defaultMode: "light",
+      disableSwitch: true,
+    },
+    navbar: {
+      title: "Jonathan's blog",
+      logo: {
+        alt: "Programming Monkey",
+        src: "img/logo.jpeg",
+      },
+      items: [
+        {
+          type: "docSidebar",
+          sidebarId: "tutorialSidebar",
+          position: "left",
+          label: "Tutorial",
         },
-        items: [
-          {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Tutorial"
-          },
-          { to: "/blog", label: "Blog", position: "left" },
-          { to: "/projects", label: "Projects", position: "left" },
-          {
-            href: "https://github.com/JonathanTube",
-            label: "GitHub",
-            position: "right"
-          },
-          {
-            href: "https://gitee.com/kongxm/projects",
-            label: "Gitee",
-            position: "right"
-          }
-        ]
-      },
-      footer: {
-        style: "dark"
-        // links: [
-        //   {
-        //     title: "Docs",
-        //     items: [
-        //       {
-        //         label: "Tutorial",
-        //         to: "/docs/intro"
-        //       }
-        //     ]
-        //   },
-        //   {
-        //     title: "Community",
-        //     items: [
-        //       {
-        //         label: "Stack Overflow",
-        //         href: "https://stackoverflow.com/questions/tagged/docusaurus"
-        //       },
-        //       {
-        //         label: "Discord",
-        //         href: "https://discordapp.com/invite/docusaurus"
-        //       },
-        //       {
-        //         label: "Twitter",
-        //         href: "https://twitter.com/docusaurus"
-        //       }
-        //     ]
-        //   },
-        //   {
-        //     title: "More",
-        //     items: [
-        //       {
-        //         label: "Blog",
-        //         to: "/blog"
-        //       },
-        //       {
-        //         label: "GitHub",
-        //         href: "https://github.com/facebook/docusaurus"
-        //       }
-        //     ]
-        //   }
-        // ],
-        // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme
-      }
-    })
+        { to: "/blog", label: "Blog", position: "left" },
+        { to: "/projects", label: "Projects", position: "left" },
+        {
+          href: "https://github.com/JonathanTube",
+          label: "GitHub",
+          position: "right",
+        },
+        {
+          href: "https://gitee.com/kongxm/projects",
+          label: "Gitee",
+          position: "right",
+        },
+      ],
+    },
+    footer: {
+      style: "dark",
+      // links: [
+      //   {
+      //     title: "Docs",
+      //     items: [
+      //       {
+      //         label: "Tutorial",
+      //         to: "/docs/intro"
+      //       }
+      //     ]
+      //   },
+      //   {
+      //     title: "Community",
+      //     items: [
+      //       {
+      //         label: "Stack Overflow",
+      //         href: "https://stackoverflow.com/questions/tagged/docusaurus"
+      //       },
+      //       {
+      //         label: "Discord",
+      //         href: "https://discordapp.com/invite/docusaurus"
+      //       },
+      //       {
+      //         label: "Twitter",
+      //         href: "https://twitter.com/docusaurus"
+      //       }
+      //     ]
+      //   },
+      //   {
+      //     title: "More",
+      //     items: [
+      //       {
+      //         label: "Blog",
+      //         to: "/blog"
+      //       },
+      //       {
+      //         label: "GitHub",
+      //         href: "https://github.com/facebook/docusaurus"
+      //       }
+      //     ]
+      //   }
+      // ],
+      // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`
+    },
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
+    },
+  },
 }
 
 module.exports = config
