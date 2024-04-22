@@ -29,7 +29,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en"]
   },
 
   presets: [
@@ -42,56 +42,55 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/JonathanTube/Jonathan.Kong.github.com/tree/main",
+            "https://github.com/JonathanTube/Jonathan.Kong.github.com/tree/main"
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/JonathanTube/Jonathan.Kong.github.com/tree/main",
+            "https://github.com/JonathanTube/Jonathan.Kong.github.com/tree/main"
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
-        },
-      }),
-    ],
+          customCss: require.resolve("./src/css/custom.css")
+        }
+      })
+    ]
   ],
   plugins: ["./postcss-tailwind-loader"],
   themeConfig: {
     colorMode: {
       defaultMode: "light",
-      disableSwitch: true,
+      disableSwitch: true
     },
     navbar: {
       title: "Jonathan's blog",
       logo: {
         alt: "Programming Monkey",
-        src: "img/logo.jpeg",
+        src: "img/logo.jpeg"
       },
       items: [
         {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Tutorial",
+          label: "Tutorial"
         },
         { to: "/blog", label: "Blog", position: "left" },
-        { to: "/projects", label: "Projects", position: "left" },
         {
           href: "https://github.com/JonathanTube",
           label: "GitHub",
-          position: "right",
+          position: "right"
         },
         {
           href: "https://gitee.com/kongxm/projects",
           label: "Gitee",
-          position: "right",
-        },
-      ],
+          position: "right"
+        }
+      ]
     },
     footer: {
-      style: "dark",
+      style: "dark"
       // links: [
       //   {
       //     title: "Docs",
@@ -137,9 +136,9 @@ const config = {
     },
     prism: {
       theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
-    },
-  },
+      darkTheme: darkCodeTheme
+    }
+  }
 }
 
 module.exports = config
