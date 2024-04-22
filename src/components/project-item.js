@@ -44,7 +44,7 @@ export default function ProjectItem({
       </div>
       <div className="flex flex-col justify-between h-full ml-5">
         <p className="font-semibold md:text-xl">
-          <a href={`/blog/projects/${id}`}>{title}</a>
+          <a href={`/blog/project-${id}`}>{title}</a>
         </p>
         <div className="flex gap-2">
           <ColorDiv techStack={techStack} />
