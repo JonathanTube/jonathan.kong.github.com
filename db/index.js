@@ -6,7 +6,7 @@ const projects = [
       "Create a platform connecting businesses, elevator technicians, and service providers for streamlined elevator maintenance.",
     image: "/projects/lifthub_org_dashboard.png",
     url: "https://org.lifthub.cn",
-    createDate: "2024-01",
+    createDate: "2023-07",
     showInHome: true,
     techStack: ["react", "nextjs", "tailwindcss", "ant design"]
   },
@@ -28,7 +28,7 @@ const projects = [
       "Develop a smart cabinet management system for campus laboratories to efficiently and securely store and manage materials, including hazardous substances.",
     image: "/projects/cabinet_h5.png",
     url: "https://140.143.202.23:9001/h5/",
-    createDate: "2023-09",
+    createDate: "2022-09",
     showInHome: true,
     techStack: ["vue", "vuex", "uview", "java", "spring"]
   },
